@@ -3,17 +3,17 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    NEO4J_URI: str = "neo4j+s://16cbd7c0.databases.neo4j.io"
+    NEO4J_URI: str = "neo4j+s://df61f5e1.databases.neo4j.io"
     NEO4J_USERNAME: str = "neo4j"
-    NEO4J_PASSWORD: str = "SXt5LodHtuDh-DfLF8VllCBNLLUyc-U_fIoERmQ6eg8"
-    AURA_INSTANCEID: str = "16cbd7c0"
+    NEO4J_PASSWORD: str = "U0wLLorImMySU6b6q_wkuf0V83f2k3lCgQj65wqDVaE"
+    AURA_INSTANCEID: str = "df61f5e1"
     AURA_INSTANCENAME: str ="Insttance01"
     REDIS_HOST: str = "localhost"
     REDIS_PORT: int = 6379
     REDIS_PASSWORD: str = ""
     REDIS_USERNAME: str = ""
     DOC_DIR: str = "input-dir"
-    OLLAMA_HOST: str = "localhost"
+    OLLAMA_HOST: str = "8fd4-34-87-179-209.ngrok-free.app"
     OLLAMA_PORT: int = 11434
     OLLAMA_LLM_MODEL: str = "deepseek-r1:14b"
     OLLAMA_EMBED_MODEL: str = "bge-m3"
